@@ -1,1 +1,0 @@
-# Simple Ecommerce for Practicing flexbox
