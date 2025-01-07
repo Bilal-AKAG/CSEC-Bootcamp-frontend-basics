@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    padding:32px 32px;
+    width:100%;
+}
+.box{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 70%;
+    height:200px;
+    padding:12px 12px;
+    color: blue;
+    font-size: large;
+    border-radius: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.button-wrapper{
+    padding:4px 4px;
+    display: flex;
+    justify-content: center;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    padding:4px 4px;
+    gap: 16px;
+}
+.buttons button{
+    width:100px;
+    border: none;
+    padding: 4px 16px;
+    border-radius: 16px;
+    background-color: blue;
+    color: white;
+    font-weight:bold;
+    cursor:pointer;
+    transition: 0.5s ;
+}
+.buttons button:hover{
+    background-color: rgb(75, 75, 254);
+}

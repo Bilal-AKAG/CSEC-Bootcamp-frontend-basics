@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+    <link rel="stylesheet" href="dom.css">
+    <!-- <script src="dom.js" defer></script> -->
+</head>
+<body>
+
+   <div class="wrapper">
+     <div class="box">
+        Message
+
+    </div>
+   </div>
+   <div class="button-wrapper">
+      <div class="buttons">
+         <button id="btn-1">Name</button>
+         <button id="btn-2">Age</button>
+         <button id="btn-3">ASTU</button>
+      </div>
+   </div>
+
+    <script>
+     const container=document.querySelector(".box");
+     const btn1=document.querySelector("#btn-1");
+     const btn2=document.querySelector("#btn-2");
+     const btn3=document.querySelector("#btn-3");
+     btn1.onclick=function(){
+        container.innerHTML="Bilal Ali"
+     };
+     btn2.onclick=function(){
+        container.innerHTML="19"
+     };
+     btn3.onclick=function(){
+        container.innerHTML="Adama Scince and technology university";
+     }
+
+    </script>
+</body>
+</html>
